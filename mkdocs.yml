@@ -1,0 +1,15 @@
+site_name: 生活日誌
+docs_dir: vault
+theme:
+  name: material
+  language: zh-TW
+  palette:
+    primary: teal
+plugins:
+  - search
+nav:
+  - 首頁: index.md
+  - 收件匣: inbox/index.md
+  - 美食: food/index.md
+  - 旅遊: travel/index.md
+  - 學習: learning/index.md
