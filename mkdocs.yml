@@ -10,8 +10,21 @@ plugins:
 nav:
   - 首頁: index.md
   - 收件匣: inbox/index.md
-  - 美食: food/index.md
-  - 旅遊: travel/index.md
+  - 美食:
+      - food/index.md
+      - 新北・板橋:
+          - food/banqiao/index.md
+          - food/banqiao/2026-10-06-flag-pasta.md
+  - 旅遊:
+      - travel/index.md
+      - 台北・信義:
+          - travel/taipei-xinyi/index.md
+          - travel/taipei-xinyi/2026-10-04-yongchunpi-wetland-park.md
+  - 娛樂:
+      - entertainment/index.md
+      - AI 漫劇:
+          - entertainment/ai-drama/index.md
+          - entertainment/ai-drama/2026-10-04-ai-drama-recommendations.md
   - 學習:
       - learning/index.md
       - AI 產圖:
@@ -24,6 +37,19 @@ nav:
           - learning/ai-image/photo-pastel-crayon-poster.md
           - learning/ai-image/travel-photo-second-world.md
           - learning/ai-image/rainy-day-october-watercolor.md
+          - learning/ai-image/photo-storybook-postcard.md
+          - learning/ai-image/chibi-blank-expression.md
+          - learning/ai-image/photo-collage-hand-doodles.md
+          - learning/ai-image/2026-10-11-photo-line-relief-poster.md
+          - learning/ai-image/2026-10-11-photo-block-sculpture-poster.md
+          - learning/ai-image/2026-10-10-photo-stipple-editorial-poster.md
+          - learning/ai-image/2026-10-10-matchbox-travel-memories.md
+          - learning/ai-image/2026-10-10-pressed-specimen-memories.md
+          - learning/ai-image/2026-10-09-autumn-watercolor-travel-journal.md
+          - learning/ai-image/2026-10-08-chatgpt-image-commands.md
       - AI 產影片:
           - learning/ai-video/index.md
           - learning/ai-video/escape-into-2d-video.md
+      - 前端開發:
+          - learning/frontend/index.md
+          - learning/frontend/shaders-webgpu-components.md
