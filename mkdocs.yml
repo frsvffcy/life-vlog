@@ -12,4 +12,18 @@ nav:
   - 收件匣: inbox/index.md
   - 美食: food/index.md
   - 旅遊: travel/index.md
-  - 學習: learning/index.md
+  - 學習:
+      - learning/index.md
+      - AI 產圖:
+          - learning/ai-image/index.md
+          - learning/ai-image/travel-photo-diorama.md
+          - learning/ai-image/2026-10-06-gjirokaster-travel-poster.md
+          - learning/ai-image/2026-10-06-ai-visual-prompt-cookbook.md
+          - learning/ai-image/2026-10-05-video-illustrator.md
+          - learning/ai-image/japanese-illustration-drawing-video.md
+          - learning/ai-image/photo-pastel-crayon-poster.md
+          - learning/ai-image/travel-photo-second-world.md
+          - learning/ai-image/rainy-day-october-watercolor.md
+      - AI 產影片:
+          - learning/ai-video/index.md
+          - learning/ai-video/escape-into-2d-video.md
