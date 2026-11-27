@@ -4,7 +4,7 @@
 
 ## 在瀏覽器閱讀
 
-開啟 [生活日誌](https://frsvffcy.github.io/life-vlog/)，用分類導覽或頁首搜尋找筆記。網站由 GitHub `main` 分支的 `vault/` 建置，包含收件匣、分類筆記和圖片附件。推送相關更新後，GitHub Actions 會自動重新建置與發布。
+任何人都可直接開啟網站，用分類導覽或頁首搜尋找筆記。網站由 GitHub `main` 分支的 `vault/` 建置，包含收件匣、分類筆記和圖片附件。推送相關更新後，GitHub Actions 會自動重新建置與發布。[生活日誌](https://frsvffcy.github.io/life-vlog/)
 
 ## 在 Obsidian 開啟
 
@@ -38,3 +38,5 @@ mkdocs serve
 1. 在 **Settings → General → Danger Zone** 確認 repository 已是 **Public**。
 2. 在 **Settings → Pages → Build and deployment** 將 **Source** 設為 **GitHub Actions**。GitHub 確認已儲存，**Enforce HTTPS** 已勾選。[Pages 設定](https://github.com/frsvffcy/life-vlog/settings/pages)
 3. 新增 [Pages 工作流程](.github/workflows/pages.yml)。當 `main` 的筆記、附件、建置設定、相依套件或工作流程有更新時，MkDocs 用 `mkdocs build --strict` 建置，再部署 `site/`。也可在 **Actions** 選 **Deploy life-vlog to GitHub Pages → Run workflow**，指定 `main` 手動發布。
+4. 首次部署的 `build` 和 `deploy` 均成功，**Settings → Pages** 顯示網站已上線。[首次部署紀錄](https://github.com/frsvffcy/life-vlog/actions/runs/45949673266)
+5. 本機建置確認 67 份 Markdown 都有對應網頁並收錄於搜尋索引，121 張 JPG 與原始檔一致。用未登入的 HTTPS 請求確認首頁、學習分類、AI 產圖分類、海報筆記及其五張原圖均可讀取，公開搜尋索引也涵蓋同一批 67 個頁面。另在 Chrome 實測分類導覽及中文搜尋「旅遊藝術海報」。[海報筆記](https://frsvffcy.github.io/life-vlog/learning/ai-image/2026-10-06-gjirokaster-travel-poster/)
