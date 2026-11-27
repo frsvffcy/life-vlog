@@ -2,6 +2,10 @@
 
 把 Threads 上的美食、旅遊與學習資料整理成 Markdown。每篇保留來源連結與文字，圖片存入 Git，影片保留連結。其他平台可以沿用同一份範本，修改 `platform` 欄位即可。
 
+## 在瀏覽器閱讀
+
+開啟 [生活日誌](https://frsvffcy.github.io/life-vlog/)，用分類導覽或頁首搜尋找筆記。網站由 GitHub `main` 分支的 `vault/` 建置，包含收件匣、分類筆記和圖片附件。推送相關更新後，GitHub Actions 會自動重新建置與發布。
+
 ## 在 Obsidian 開啟
 
 ```sh
@@ -27,4 +31,10 @@ mkdocs serve
 
 在瀏覽器開啟 [本機預覽](http://127.0.0.1:8000/)。MkDocs 會從 `vault/` 建置網站，並產生全文搜尋索引。
 
-GitHub Pages 尚未部署。私人 GitHub repo 的 Pages 網站可能公開，取決於帳戶方案與 Pages 存取設定。啟用前請先決定線上瀏覽所需的存取範圍。
+## GitHub Pages 操作紀錄
+
+### 2026-11-27 啟用公開網站
+
+1. 在 **Settings → General → Danger Zone** 確認 repository 已是 **Public**。
+2. 在 **Settings → Pages → Build and deployment** 將 **Source** 設為 **GitHub Actions**。GitHub 確認已儲存，**Enforce HTTPS** 已勾選。[Pages 設定](https://github.com/frsvffcy/life-vlog/settings/pages)
+3. 新增 [Pages 工作流程](.github/workflows/pages.yml)。當 `main` 的筆記、附件、建置設定、相依套件或工作流程有更新時，MkDocs 用 `mkdocs build --strict` 建置，再部署 `site/`。也可在 **Actions** 選 **Deploy life-vlog to GitHub Pages → Run workflow**，指定 `main` 手動發布。

@@ -1,4 +1,5 @@
 site_name: 生活日誌
+site_url: !ENV PAGES_SITE_URL
 docs_dir: vault
 theme:
   name: material
