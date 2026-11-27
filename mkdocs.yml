@@ -50,6 +50,12 @@ nav:
       - AI 產影片:
           - learning/ai-video/index.md
           - learning/ai-video/escape-into-2d-video.md
+      - AI 技術:
+          - learning/ai-technology/index.md
+          - learning/ai-technology/2026-11-26-microsoft-ai-agents-for-beginners.md
+          - learning/ai-technology/2026-11-26-d2l-zh-deep-learning.md
+          - learning/ai-technology/2026-11-26-mlsysbook-machine-learning-systems.md
+          - learning/ai-technology/2026-09-27-know-as-ui-ai-tutorials.md
       - 前端開發:
           - learning/frontend/index.md
           - learning/frontend/shaders-webgpu-components.md
