@@ -14,7 +14,13 @@ nav:
       - food/index.md
       - 新北・板橋:
           - food/banqiao/index.md
+          - food/banqiao/2026-11-19-guike-teppanyaki.md
+          - food/banqiao/2026-10-07-banqiao-food-community-recommendations.md
           - food/banqiao/2026-10-06-flag-pasta.md
+          - food/banqiao/2026-10-04-xinpu-jiangzicui-restaurants.md
+          - food/banqiao/2026-10-04-le-coin-chaud.md
+          - food/banqiao/2026-06-24-xinpu-local-food-recommendations.md
+          - food/banqiao/2025-11-05-banqiao-local-food-contest.md
   - 旅遊:
       - travel/index.md
       - 台北・信義:
@@ -47,15 +53,39 @@ nav:
           - learning/ai-image/2026-10-10-pressed-specimen-memories.md
           - learning/ai-image/2026-10-09-autumn-watercolor-travel-journal.md
           - learning/ai-image/2026-10-08-chatgpt-image-commands.md
+          - learning/ai-image/2026-10-08-vintage-travel-ticket-skill.md
+          - learning/ai-image/2026-10-16-dreamy-glass-photo-poster.md
+          - learning/ai-image/2026-10-15-paper-pulp-relief-poster.md
+          - learning/ai-image/2026-11-19-architectural-city-poster.md
+          - learning/ai-image/2026-11-13-japanese-paper-cut-diorama.md
       - AI 產影片:
           - learning/ai-video/index.md
           - learning/ai-video/escape-into-2d-video.md
+          - learning/ai-video/2026-10-04-video-autopilot-kit.md
+      - AI 協作:
+          - learning/ai-collaboration/index.md
+          - learning/ai-collaboration/2026-11-26-claude-code-for-tutors.md
+          - learning/ai-collaboration/2026-11-26-pii-guard.md
+          - learning/ai-collaboration/2026-09-28-casper-ai-coding-series.md
+      - AI 寫作:
+          - learning/ai-writing/index.md
+          - learning/ai-writing/2026-09-27-chinese-novelist-skill.md
       - AI 技術:
           - learning/ai-technology/index.md
           - learning/ai-technology/2026-11-26-microsoft-ai-agents-for-beginners.md
           - learning/ai-technology/2026-11-26-d2l-zh-deep-learning.md
           - learning/ai-technology/2026-11-26-mlsysbook-machine-learning-systems.md
           - learning/ai-technology/2026-09-27-know-as-ui-ai-tutorials.md
+      - 英語學習:
+          - learning/english/index.md
+          - learning/english/2026-11-26-one-page-a-day-english-reading.md
+          - learning/english/2026-11-26-the-bookshelf-free-graded-readers.md
+          - learning/english/2026-10-14-awesome-english-ebooks-magazines.md
+          - learning/english/2026-10-09-star2497-gsat-vocabulary-flashcards.md
+          - learning/english/2026-10-05-daily-dictation-ielts-listening.md
+          - learning/english/2026-09-29-byoungd-up-english-learning-guide.md
       - 前端開發:
           - learning/frontend/index.md
+          - learning/frontend/2026-11-26-opencut-open-source-video-editor.md
+          - learning/frontend/2026-10-08-claude-interactive-portfolio.md
           - learning/frontend/shaders-webgpu-components.md

@@ -14,7 +14,7 @@ git clone https://github.com/frsvffcy/life-vlog.git
 
 ## 收錄貼文
 
-將 [範本](templates/entry.md) 複製到 `vault/inbox/`，用 `YYYY-MM-DD-短標題.md` 命名。填寫來源網址、摘要與文字，把圖片實體檔放入 `vault/attachments/`，在筆記內用 Markdown 相對路徑引用。整理時將筆記移到對應分類，並在該分類首頁加入連結。
+將 [範本](templates/entry.md) 複製到 `vault/inbox/`，用 `YYYY-MM-DD-短標題.md` 命名。填寫來源網址、摘要與文字，把圖片實體檔放入 `vault/attachments/`，在筆記內用 Markdown 相對路徑引用。整理時將筆記移到對應分類，並在該分類首頁加入連結。索引遵循分類層級的單一路徑：上層首頁只連到下一層首頁，不重複列出文章；文章列在最末層分類首頁，依發布日期由新到舊排列，並同步 MkDocs 導覽。
 
 ## 預覽與搜尋
 

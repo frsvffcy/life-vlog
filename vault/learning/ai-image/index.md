@@ -18,3 +18,8 @@
 - [把照片變成押花標本回憶](2026-10-10-pressed-specimen-memories.md)
 - [照片變成秋日手帳水彩](2026-10-09-autumn-watercolor-travel-journal.md)
 - [ChatGPT 生圖指令大全](2026-10-08-chatgpt-image-commands.md)
+- [把照片變成復古紀念門票](2026-10-08-vintage-travel-ticket-skill.md)
+- [照片變成夢幻玻璃感海報](2026-10-16-dreamy-glass-photo-poster.md)
+- [照片變成紙漿浮雕海報](2026-10-15-paper-pulp-relief-poster.md)
+- [城市地標建築海報](2026-11-19-architectural-city-poster.md)
+- [照片變成日系剪紙微縮海報](2026-11-13-japanese-paper-cut-diorama.md)
